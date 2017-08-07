@@ -8,6 +8,8 @@
 
 https://bokuweb.github.io/wasm-rust-game-of-life/
 
+<img src="https://github.com/bokuweb/wasm-rust-game-of-life/blob/master/screenshot.gif?raw=true" />
+
 ## Test
 
 ``` sh
