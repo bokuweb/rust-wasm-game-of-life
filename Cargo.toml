@@ -1,0 +1,8 @@
+[package]
+name = "rust-wasm-start"
+version = "0.1.0"
+authors = ["bokuweb <bokuweb12@gmail.com>"]
+
+[dependencies]
+
+rand="0.3.0"

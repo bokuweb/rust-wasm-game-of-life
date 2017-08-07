@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Game of life with rust + wasm</title>
+</head>
+
+<body>
+  <div id="array"></div>
+  <canvas></canvas>
+  <script type="text/javascript" src="./lifegame.js"></script>
+  <script type="text/javascript">
+    "use strict"
+    const name = "wasm/rust-wasm-start";
+    var Module = {
+      preRun: [],
+      postRun: [],
+      wasmBinaryFile: `${name}.wasm`,
+      print: text => {
+        console.log(text);
+      },
+      printErr: text => {
+        console.error(text);
+      },
+    };
+    fetch(`${name}.wasm`)
+      .then(resp => resp.arrayBuffer())
+      .then(buffer => {
+        Module.wasmBinary = buffer;
+        const script = document.createElement("script");
+        script.src = `${name}.js`;
+        script.addEventListener('load', (e) => {
+          const main = document.createElement('script');
+          main.src = 'main.js';
+          document.body.appendChild(main);
+        });
+        document.body.appendChild(script);
+      })
+  </script>
+</body>
+
+</html>
