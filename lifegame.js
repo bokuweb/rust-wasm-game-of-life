@@ -15,9 +15,7 @@ class Game {
     }
 
     next() {
-        const a = [];
-        this.field.forEach((r, y) => [].push.apply(a, this.next_row(r, y)));
-        return a;
+      //
     }
 
     next_row(row, y) {
