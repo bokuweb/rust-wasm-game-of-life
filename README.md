@@ -1,4 +1,4 @@
-# wasm-rust-game-of-life
+# rust-wasm-game-of-life
 
 👾 Conway's Game of Life written by Rust with WebAssembly
 
