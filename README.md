@@ -6,7 +6,7 @@
 
 ## Demo
 
-https://bokuweb.github.io/wasm-rust-game-of-life/
+https://bokuweb.github.io/rust-wasm-game-of-life/
 
 <img src="https://github.com/bokuweb/wasm-rust-game-of-life/blob/master/screenshot.gif?raw=true" />
 
