@@ -2,7 +2,7 @@
 
 👾 Conway's Game of Life written by Rust with WebAssembly
 
-[![Build Status](https://travis-ci.org/bokuweb/wasm-rust-game-of-life.svg?branch=master)](https://travis-ci.org/bokuweb/wasm-rust-game-of-life)
+[![Build Status](https://travis-ci.org/bokuweb/rust-wasm-game-of-life.svg?branch=master)](https://travis-ci.org/bokuweb/rust-wasm-game-of-life)
 
 ## Demo
 
